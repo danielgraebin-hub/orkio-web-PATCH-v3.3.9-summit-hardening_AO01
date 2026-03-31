@@ -1,0 +1,6 @@
+AO-01 surgical patch set
+- TTS dedupe keyed by messageId first, text fallback second
+- stricter replay filter for assistant speech queue
+- single mic restart scheduler for TTS/V2V cycle
+- MediaRecorder timers and stream teardown centralized
+- STT language policy: explicit env if set, otherwise PT in voice mode and autodetect outside
